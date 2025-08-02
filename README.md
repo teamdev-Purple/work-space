@@ -3,7 +3,7 @@
 HTML, CSS, JavaScriptを活用したおみくじサイト
 https://teamdev-purple.github.io/work-space/index.html
 
-## Web Site
+## 🥠 Web Site
 <img width="1915" height="957" alt="image" src="https://github.com/user-attachments/assets/2054c9cc-a8a4-4e11-8c02-252492daae55" />
 
 <img width="1917" height="956" alt="image" src="https://github.com/user-attachments/assets/50d23843-5861-481a-9544-143a6ec6acdd" />
