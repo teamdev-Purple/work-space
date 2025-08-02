@@ -9,9 +9,18 @@ const drawButton = document.getElementById('draw-omikuji');
 
 // おみくじの結果と、対応するページのURLをまとめる
 const fortunes = [
-  'daikichi.html', // 大吉ページ
-  'chukichi.html', // 中吉ページ
-  'shokichi.html'  // 小吉ページ
+  'daikichi1.html', // 大吉ページ
+  'daikichi2.html', // 大吉ページ
+  'kichi1.html',    // 吉ページ
+  'kichi2.html',    // 吉ページ
+  'chukichi1.html', // 中吉ページ
+  'chukichi2.html', // 中吉ページ
+  'shokichi1.html', // 小吉ページ
+  'shokichi2.html', // 小吉ページ
+  'suekichi1.html', // 末吉ページ
+  'suekichi2.html', // 末吉ページ
+  'kyo1.html',       // 凶ページ
+  'kyo2.html'       // 凶ページ
 ];
 
 // ボタンがクリックされたときの処理
