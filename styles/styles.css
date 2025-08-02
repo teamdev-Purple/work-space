@@ -2,3 +2,20 @@ body {
     height: 100vh;
     background-image: linear-gradient(to bottom, #ffecd2 0%, #fcb69f 100%);
 }
+
+
+.container {
+    text-align: center;
+    margin-top: 3rem;
+    width: 300px;
+    background-color: white;
+    outline: 4px solid red;
+    outline-offset: 2px;
+    border: 2px solid red;
+
+}
+
+.container img {
+  max-width: 100%;
+  height: auto;
+}
