@@ -3,6 +3,61 @@ body {
     background-image: linear-gradient(to bottom, #ffecd2 0%, #fcb69f 100%);
 }
 
+ul {
+  list-style-type: square;
+}
+
+.yuji-syuku {
+  font-family: 'Yuji Syuku', serif;
+}
+
+.middle-font {
+  font-size: 0.7rem;
+}
+
+.small-font {
+  font-size: 0.5rem;
+}
+
+.light {
+  filter: drop-shadow(0 0 10px rgba(255, 255, 255, 1));
+}
+
+.omikuji-box {
+  height: 15rem;
+}
+
+.omikuji {
+  width: 280px;
+  height: auto;
+  border: thick double #ff0000;
+  outline: 0.2rem solid #ff0000;
+}
+
+.illust {
+  width: 260px;
+}
+
+.fortune {
+  font-size: 5rem;
+}
+
+.line-red {
+  border-top: 2px solid #ff0000;
+  width: 260px;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+a:visited {
+  text-decoration: none;
+}
 
 .container {
     text-align: center;

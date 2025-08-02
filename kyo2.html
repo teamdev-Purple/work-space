@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width", initial-scale="1.0">
+  <meta name="description" content="あなたのソフトウェア開発の行方を占います。">
+  <!-- Destylle CSS -->
+    <link rel="stylesheet" href="styles/destyle.css">
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles/styles.css">
+    <!-- Google Fonts-->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Yuji+Syuku&display=swap" rel="stylesheet">
+  <title>おみくじ結果</title>
+</head>
+<body>
+  <div class="container">
+    <h5 class="text-danger yuji-syuku pt-3">
+      ソフトウェア開発みくじ
+    </h5>
+    <div>
+      <hr class="line-red">
+      <img  class ="illust" src="images/pose_ochikomu_businessman.png">
+      <h1 class="fortune text-danger yuji-syuku text-center">凶</h1>
+      <hr class="line-red">
+    </div>
+    <div>
+      <p class="text-danger yuji-syuku p-3">誰も触れていないはずのコードから、謎の警告メッセージが出始めます。その原因を突き止めるには、一週間かかるでしょう。とりあえず、今日はお気に入りのエディタのテーマを変えて気分転換するのが吉。</p>
+    </div>
+    <div class="mb-3">
+      <hr class="line-red">
+      <p class="text-danger yuji-syuku text-center">🌸 ラッキー言語 🌸</p>
+      <h5 class="text-danger yuji-syuku text-center">TypeScript</h5>
+      <hr class="line-red">
+      <p class="text-danger yuji-syuku text-center">🌸 ラッキーデータベース 🌸</p>
+      <h5 class="text-danger yuji-syuku text-center">DB2</h5>
+      <hr class="line-red">
+      <p class="text-danger yuji-syuku text-center">🌸 ラッキーエディタ 🌸</p>
+      <h5 class="text-danger yuji-syuku text-center">Emacs</h5>
+    </div>
+
+    <div class="mb-3">
+      <button
+        id="re-draw-omikuji"
+        type="button"
+        class="btn btn-danger rounded-pill yuji-syuku"
+        onclick="location.href='index.html'"
+      >
+
+      もう一度おみくじを引く
+      </button>
+    </div>
+
+</body>
+</html>
