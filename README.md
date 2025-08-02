@@ -27,7 +27,7 @@ https://teamdev-purple.github.io/work-space/index.html
 work-space/
 ├── README.md                 # このファイル
 ├── README.github.md          # GitHub運用ルール
-├── .vscode/                  # Reactフロントエンド
+├── .vscode/                  # liveServer.settingsファイル
 ├── images/                   # 画像ファイル
 ├── scripts/                  # JavaScriptフォルダ
 │     └──　main.js            # main.jsフォルダ
