@@ -1,4 +1,4 @@
-#　ソフトウェア開発みくじ
+# ソフトウェア開発みくじ
 
 HTML, CSS, JavaScriptを活用したおみくじサイト
 https://teamdev-purple.github.io/work-space/index.html
